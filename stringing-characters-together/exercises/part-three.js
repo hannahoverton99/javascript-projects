@@ -19,4 +19,4 @@ console.log(`The abbreviation for '${language}' is '${initials}'.`);
 let notTitleCase = 'title case';
 console.log(notTitleCase);
 let titleCase= notTitleCase.toUpperCase();
-console.log(titleCase);
+console.log(titleCase); 
