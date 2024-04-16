@@ -20,5 +20,37 @@ let studentLabs = [
     }
   }
 ];
+let studentLabs2 = [
+  {
+      student: 'Blake',
+      myCode: function (num) {
+        return Math.pow(num, num);
+      }
+  },
+  {
+      student: 'Jessica',
+      runLab: function (num) {
+        return Math.pow(num, num);
+      }
+  },
+  {
+      student: 'Mya',
+      runLab: function (num) {
+        return num * num;
+      }
+  }
+];
 
-gradeLabs(studentLabs);
+// gradeLabs(studentLabs2);
+
+gradeLabs(studentLabs2)
+try{
+  if(key in studentLabs !== "runLab"){
+  let customError = new Error("Error thrown");
+  console.log(customError.name);
+}
+
+}catch(e){
+  console.log(e);
+
+}
